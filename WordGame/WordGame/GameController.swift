@@ -108,8 +108,6 @@ class GameController {
       }
       
       translationTerminal.standardTranslationDictionary = standardTranslationDictionary
-      
-      print(standardTranslationDictionary)
     }
   }
   
@@ -124,6 +122,7 @@ class GameController {
       
       let userTranslatedText = translationTerminal.translateText(customerInteraction.detranslatedText)
       
+      print("\n\n")
       print("A customer walks in...")
       print("\n")
       print("\"" + userTranslatedText + "\"")
