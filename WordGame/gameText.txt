@@ -1,0 +1,52 @@
+e,c,cm,cs,cms
+
+Hi! Can I get an espresso please?
+1,0,0,0,0
+
+Hey there. I will just get a black coffee, please.
+0,1,0,0,0
+
+Can I get two coffees with milk?
+0,0,2,0,0
+
+Hey, how is it going? I think I will just get a coffee with sugar please.
+0,0,0,1,0
+
+One espresso and one black coffee.
+1,1,0,0,0
+
+Just a coffee with milk and sugar for me.
+0,0,0,0,1
+
+Four espressos, please.
+4,0,0,0,0
+
+Hey, can I get a black coffee? Actually, make that two.
+0,2,0,0,0
+
+I will get one black coffee, one coffee with milk and sugar, and two espressos please.
+2,1,0,0,1
+
+Could I just grab an espresso?
+1,0,0,0,0
+
+Get me a coffee.
+0,1,0,0,0
+
+I would like one coffee and one espresso.
+1,1,0,0,0
+
+Coffee with milk and sugar please.
+0,0,0,0,1
+
+Hi, can I have a black coffee? Actually no, scratch that. I will have an espresso today, please.
+1,0,0,0,0
+
+Coffee. Now.
+0,1,0,0,0
+
+One espresso, one coffee with milk and sugar, one coffee with just sugar.
+1,0,0,1,1
+
+I will have...an espresso. No actually, a coffee. With milk. And some sugar too please.
+0,0,0,0,1
