@@ -120,21 +120,19 @@ class GameController {
     
     for customerInteraction in customerInteractions {
       
-      let userTranslatedText = translationTerminal.translateText(customerInteraction.detranslatedText)
-      
       print("\n\n")
-      print("A customer walks in...")
+      ConsoleIO.writeAction("A customer walks in...")
       print("\n")
-      print("\"" + userTranslatedText + "\"")
+      ConsoleIO.translateAndWriteDialogue(message: customerInteraction.detranslatedText, translationTerminal: translationTerminal)
       
       customerInteraction.receivedOrder = coffeeTerminal.getCustomerOrder()
       
       customerInteraction.servedAt = Date()
       
       if customerInteraction.didReceiveDesiredOrder() {
-        print("The customer looks pleased!")
+        ConsoleIO.writeAction("The customer looks pleased!")
       } else {
-        print("The customer grumbles and walks away...")
+        ConsoleIO.writeAction("The customer grumbles and walks away...")
       }
       
       translationTerminal.recordCustomerInteraction(customerInteraction)
